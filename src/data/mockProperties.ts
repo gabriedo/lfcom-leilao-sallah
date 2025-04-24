@@ -1,0 +1,120 @@
+import { Property } from "@/types/property";
+
+export const mockProperties: Property[] = [
+  {
+    id: "1",
+    data: {
+      id: "1",
+      title: "Apartamento com 2 Quartos",
+      address: "Rua das Flores, 123",
+      city: "São Paulo",
+      state: "SP",
+      type: "Apartamento",
+      sale_value: "250000",
+      preco_avaliacao: "300000",
+      desconto: "15",
+      total_area: "70",
+      private_area: "60",
+      quartos: "2",
+      banheiros: "2",
+      garagem: "1",
+      images: [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      modality: "Leilão",
+      fim_1: null,
+      fim_2: null,
+      fim_venda_online: null,
+      aceita_financiamento: "true",
+      aceita_FGTS: "true",
+      aceita_parcelamento: "true",
+      aceita_consorcio: "true",
+      description: "Apartamento bem localizado, próximo ao metrô e com excelente infraestrutura.",
+      ps: ["Ótima localização", "Próximo ao metrô"],
+      matricula_number: "123456",
+      inscricao_imobiliaria: "789012",
+      matricula_url: "https://example.com/matricula1.pdf",
+      edital_url: "https://example.com/edital1.pdf",
+      regras_de_venda_url: "https://example.com/regras1.pdf",
+      url: "https://example.com/imovel1"
+    }
+  },
+  {
+    id: "2",
+    data: {
+      id: "2",
+      title: "Casa com 3 Quartos",
+      address: "Avenida Principal, 456",
+      city: "Rio de Janeiro",
+      state: "RJ",
+      type: "Casa",
+      sale_value: "450000",
+      preco_avaliacao: "500000",
+      desconto: "20",
+      total_area: "150",
+      private_area: "120",
+      quartos: "3",
+      banheiros: "3",
+      garagem: "2",
+      images: [
+        "https://example.com/image3.jpg",
+        "https://example.com/image4.jpg"
+      ],
+      modality: "Leilão",
+      fim_1: null,
+      fim_2: null,
+      fim_venda_online: null,
+      aceita_financiamento: "true",
+      aceita_FGTS: "true",
+      aceita_parcelamento: "true",
+      aceita_consorcio: "true",
+      description: "Casa espaçosa com quintal e área de lazer.",
+      ps: ["Quintal amplo", "Área de lazer"],
+      matricula_number: "789012",
+      inscricao_imobiliaria: "345678",
+      matricula_url: "https://example.com/matricula2.pdf",
+      edital_url: "https://example.com/edital2.pdf",
+      regras_de_venda_url: "https://example.com/regras2.pdf",
+      url: "https://example.com/imovel2"
+    }
+  },
+  {
+    id: "3",
+    data: {
+      id: "3",
+      title: "Terreno Residencial",
+      address: "Rua das Árvores, 789",
+      city: "Belo Horizonte",
+      state: "MG",
+      type: "Terreno",
+      sale_value: "180000",
+      preco_avaliacao: "200000",
+      desconto: "10",
+      total_area: "300",
+      private_area: "300",
+      quartos: "0",
+      banheiros: "0",
+      garagem: "0",
+      images: [
+        "https://example.com/image5.jpg"
+      ],
+      modality: "Leilão",
+      fim_1: null,
+      fim_2: null,
+      fim_venda_online: null,
+      aceita_financiamento: "true",
+      aceita_FGTS: "true",
+      aceita_parcelamento: "true",
+      aceita_consorcio: "true",
+      description: "Terreno plano e regular, ideal para construção.",
+      ps: ["Terreno plano", "Regular"],
+      matricula_number: "345678",
+      inscricao_imobiliaria: "901234",
+      matricula_url: "https://example.com/matricula3.pdf",
+      edital_url: "https://example.com/edital3.pdf",
+      regras_de_venda_url: "https://example.com/regras3.pdf",
+      url: "https://example.com/imovel3"
+    }
+  }
+]; 

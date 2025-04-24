@@ -1,0 +1,91 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+build
+dist
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.vite
+
+# Virtual Environment
+venv_new/
+env/
+
+# Local development
+.env.local
+.env.*.local
+
+# System files
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Coverage
+coverage/
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# New logs
+pnpm-debug.log*
+lerna-debug.log*
+
+# New dist
+dist-ssr
+
+# New local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# New venv
+venv_flask
+
+# New env
+env.bak
+venv.bak
